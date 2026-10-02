@@ -26,7 +26,6 @@ Instead of relying on heavy third-party vector databases like Pinecone or Chroma
 | Gemini Embedding 2 | Source and query embeddings across supported modalities |
 | Google ADK agent | Answer coordinator that receives the same retrieval packet shown in the UI |
 
-The important implementation detail is that `/ask` performs retrieval once and passes that same retrieval packet into the ADK answer flow. The answer and the citation panel are therefore based on the same ranked evidence.
 
 ## Project Structure
 
